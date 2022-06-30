@@ -1,0 +1,203 @@
+//Eduardo e Mateus//
+import java.util.Scanner;
+
+public class quiz {
+
+	public static void main(String[] args) {
+		//Variaveis ja com as perguntas//
+		String questao10 = "Quaol foi a season que o objetivo era salvar o jogo dos bugs, mas não deu certo? ";
+		String questao9 = "Quantas temporadas tem no R6?";
+		String questao8 = "Quantos operadores negros tem no R6?";
+		String questao7 = "Qual o nome da season que lançou a Clash no R6";
+		String questao6 = "O R6 tem quantos operadores no total?";
+		String questao5 = "São quantos ranks no total?";
+		String questao4 = "São quantas missões para completar o modo CENÀRIOS 100%? ";
+		String questao3 = "O R6 já esta em qual ano?";
+		String questao2 = "Qual desses personagens nasceu na Bélgica? ";
+		String questao = "Qual foi a season que lançou o Jackal e a Mira no R6? ";
+		boolean RespostaCerta = false;
+		Scanner scanner = new Scanner(System.in);
+		//laço de repetição com as perguntas e respostas//
+		do {
+			System.out.println(questao);
+			
+			System.out.println("1- BLOOD ORCHID");
+			System.out.println("2- SHADOW LEGACY");
+			System.out.println("3- VELVET SHELL");
+			
+			System.out.println("Digite sua resposta: ");
+			String resposta = scanner.nextLine();
+			
+			if(resposta.equals("3")) {
+				System.out.println("Resposta correta!");
+			}else {
+				System.out.println("Resposta errada!");
+			}	
+		break;
+		} while (!RespostaCerta) ;
+			
+		
+		
+		do {
+			System.out.println(questao2);
+			
+			System.out.println("1- SENS");
+			System.out.println("2- AZAMI");
+			System.out.println("3- ARUNI");
+			
+			System.out.println("Digite sua resposta: ");
+			String resposta = scanner.nextLine();
+			
+			if(resposta.equals("1")) {
+				System.out.println("Resposta correta!");
+			}else {
+				System.out.println("Resposta errada!");
+			}	
+		break;
+		}while (!RespostaCerta);
+	
+		do {
+			System.out.println(questao3);
+			
+			System.out.println("1-8");
+			System.out.println("2- 6");
+			System.out.println("3- 7");
+			
+			System.out.println("Digite sua resposta: ");
+			String resposta = scanner.nextLine();
+			
+			if(resposta.equals("3")) {
+				System.out.println("Resposta correta!");
+			}else {
+				System.out.println("Resposta errada!");
+			}	
+		break;
+		}while (!RespostaCerta);
+
+		do {
+			System.out.println(questao4);
+			
+			System.out.println("1- 11");
+			System.out.println("2- 6");
+			System.out.println("3- 10");
+			
+			System.out.println("Digite sua resposta: ");
+			String resposta = scanner.nextLine();
+			
+			if(resposta.equals("2")) {
+				System.out.println("Resposta correta!");
+			}else {
+				System.out.println("Resposta errada!");
+			}	
+		break;
+		}while (!RespostaCerta);
+		do {
+			System.out.println(questao5);
+			
+			System.out.println("1- 20");
+			System.out.println("2- 25");
+			System.out.println("3- 23");
+			
+			System.out.println("Digite sua resposta: ");
+			String resposta = scanner.nextLine();
+			
+			if(resposta.equals("2")) {
+				System.out.println("Resposta correta!");
+			}else {
+				System.out.println("Resposta errada!");
+			}	
+		break;
+		}while (!RespostaCerta);
+		do {
+			System.out.println(questao6);
+			
+			System.out.println("1- 60");
+			System.out.println("2- 56");
+			System.out.println("3- 64");
+			
+			System.out.println("Digite sua resposta: ");
+			String resposta = scanner.nextLine();
+			
+			if(resposta.equals("3")) {
+				System.out.println("Resposta correta!");
+			}else {
+				System.out.println("Resposta errada!");
+			}	
+		break;
+		}while (!RespostaCerta);
+
+		do {
+			System.out.println(questao7);
+			
+			System.out.println("1- DUST LINE");
+			System.out.println("2- GRIM SKY");
+			System.out.println("3- WHITE NOISE");
+			
+			System.out.println("Digite sua resposta: ");
+			String resposta = scanner.nextLine();
+			
+			if(resposta.equals("2")) {
+				System.out.println("Resposta correta!");
+			}else {
+				System.out.println("Resposta errada!");
+			}	
+		break;
+		}while (!RespostaCerta);
+
+		do {
+			System.out.println(questao8);
+			
+			System.out.println("1- 5");
+			System.out.println("2- 6");
+			System.out.println("3- 3");
+			
+			System.out.println("Digite sua resposta: ");
+			String resposta = scanner.nextLine();
+			
+			if(resposta.equals("1")) {
+				System.out.println("Resposta correta!");
+			}else {
+				System.out.println("Resposta errada!");
+			}	
+		break;
+		}while (!RespostaCerta);
+		do {
+			System.out.println(questao9);
+			
+			System.out.println("1- 25");
+			System.out.println("2- 26");
+			System.out.println("3- 24");
+			
+			System.out.println("Digite sua resposta: ");
+			String resposta = scanner.nextLine();
+			
+			if(resposta.equals("2")) {
+				System.out.println("Resposta correta!");
+			}else {
+				System.out.println("Resposta errada!");
+			}	
+		break;
+		}while (!RespostaCerta);
+		do {
+			System.out.println(questao10);
+			
+			System.out.println("1- CHIMERA");
+			System.out.println("2- NEW DAWN");
+			System.out.println("3- HEALTH");
+			
+			System.out.println("Digite sua resposta: ");
+			String resposta = scanner.nextLine();
+			
+			if(resposta.equals("3")) {
+				System.out.println("Resposta correta!");
+			}else {
+				System.out.println("Resposta errada!");
+			}	
+		break;
+		}while (!RespostaCerta);
+	//comunica o fim após responder tudo//
+		System.out.println("FIM");
+	//acabo//
+	}
+
+}
