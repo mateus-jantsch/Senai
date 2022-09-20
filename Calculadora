@@ -1,0 +1,56 @@
+package calculadora;
+
+import java.util.Scanner;
+
+public class calc {
+        
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Digite o primeiro numero:");
+        double num1 = sc.nextDouble();
+        System.out.println("Digite o segundo numero:");
+        double num2 = sc.nextDouble();
+        System.out.println("Qual operação?"
+                + "\n1- Adição"
+                + "\n2- Subtração"
+                + "\n3- Multiplicação"
+                + "\n4- Divisão");
+        int operacao = sc.nextInt();
+        switch (operacao) {
+        case 1:
+            System.out.println(adicao(num1, num2)); 
+            break;
+        case 2:
+            System.out.println(subtracao(num1, num2));
+            break;
+        case 3:
+            System.out.println(multiplicacao(num1, num2));
+            break;
+        case 4:
+            System.out.println(divisao(num1, num2));
+            break;
+        }
+    }
+
+    private static double divisao(double num1, double num2) {
+        double resultado = num1/num2;
+        return resultado;
+    }
+
+    private static double multiplicacao(double num1, double num2) {
+        double resultado = num1*num2;
+        return resultado;
+    }
+
+    private static double subtracao(double num1, double num2) {
+        double resultado = num1-num2;
+        return resultado;
+    }
+
+    private static double adicao(double num1, double num2) {
+        double resultado = num1+num2;
+        return resultado;
+    }
+
+}
