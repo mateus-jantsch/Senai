@@ -1,0 +1,226 @@
+main
+
+package aulaC;
+
+import java.util.Scanner;
+
+public class main {
+	
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int quest = 0;
+		novoquiz novoquiz = new novoquiz();
+		
+		while(quest != 11) {
+		System.out.println("01. Questao 1");
+		System.out.println("02. Questao 2");
+		System.out.println("03. Questao 3");
+		System.out.println("04. Questao 4");
+		System.out.println("05. Questao 5");
+		System.out.println("06. Questao 6");
+		System.out.println("07. Questao 7");
+		System.out.println("08. Questao 8");
+		System.out.println("09. Questao 9");
+		System.out.println("10. Questao 10");
+		
+		System.out.println("Qual a questão desejada??");
+		quest = sc.nextInt();
+		
+		
+		switch(quest) {
+		case 1:
+			novoquiz.qt1();
+			break;
+			
+		case 2:
+			novoquiz.qt2();
+			break;
+			
+		case 3:
+			novoquiz.qt3();
+			break;
+			
+		case 4:
+			novoquiz.qt4();
+			break;
+			
+		case 5:
+			novoquiz.qt5();
+			break;
+			
+		case 6:
+			novoquiz.qt6();
+			break;
+			
+		case 7:
+			novoquiz.qt7();
+			break;
+			
+		case 8:
+			novoquiz.qt8();
+			break;
+			
+		case 9:
+			novoquiz.qt9();
+			break;
+			
+		case 10:
+			novoquiz.qt10();
+			break;
+			
+			default:
+				System.out.println("opcao nao existe");
+				break;
+			
+		}
+		
+		
+		
+	}
+}
+}
+
+
+novoquiz
+
+package aulaC;
+
+import java.util.Scanner;
+
+public class novoquiz {
+
+		public static void qt1() {
+			Scanner sc = new Scanner(System.in);
+			int r = sc.nextInt();
+			System.out.println("01- quanto eh 2+2?");
+			System.out.println("5");
+			System.out.println("4");
+			if(r == 4) {
+				System.out.println("resposta certa");
+			}else {
+				System.out.println("resposta errada");
+			}
+			
+		}
+		public static void qt2() {
+			Scanner sc = new Scanner(System.in);
+			int r = sc.nextInt();
+			System.out.println("02- quanto eh 2x2?");
+			System.out.println("8");
+			System.out.println("4");
+			if(r == 4) {
+				System.out.println("resposta certa");
+			}else {
+				System.out.println("resposta errada");
+			}
+			
+			
+		}
+		public static void qt3() {
+			Scanner sc = new Scanner(System.in);
+			int r = sc.nextInt();
+			System.out.println("03- quanto eh 2x6?");
+			System.out.println("14");
+			System.out.println("12");
+			if(r == 12) {
+				System.out.println("resposta certa");
+			}else {
+				System.out.println("resposta errada");
+			}
+			
+		}
+		public static void qt4() {
+			Scanner sc = new Scanner(System.in);
+			int r = sc.nextInt();
+			System.out.println("04- quanto eh 2x10?");
+			System.out.println("20");
+			System.out.println("17");
+			if(r == 20) {
+				System.out.println("resposta certa");
+			}else {
+				System.out.println("resposta errada");
+			}
+			
+		}
+		public static void qt5() {
+			Scanner sc = new Scanner(System.in);
+			int r = sc.nextInt();
+			System.out.println("05- quanto eh 5x5?");
+			System.out.println("25");
+			System.out.println("50");
+			if(r == 25) {
+				System.out.println("resposta certa");
+			}else {
+				System.out.println("resposta errada");
+			}
+			
+		}
+		public static void qt6() {
+			Scanner sc = new Scanner(System.in);
+			int r = sc.nextInt();
+			System.out.println("06- quanto eh 8x8?");
+			System.out.println("64");
+			System.out.println("56");
+			if(r == 64) {
+				System.out.println("resposta certa");
+			}else {
+				System.out.println("resposta errada");
+			}
+			
+		}
+		public static void qt7() {
+			Scanner sc = new Scanner(System.in);
+			int r = sc.nextInt();
+			System.out.println("07- quanto eh 100x70?");
+			System.out.println("7000");
+			System.out.println("700");
+			if(r == 7000) {
+				System.out.println("resposta certa");
+			}else {
+				System.out.println("resposta errada");
+			}
+			
+		}
+		public static void qt8() {
+			Scanner sc = new Scanner(System.in);
+			int r = sc.nextInt();
+			System.out.println("08- quanto eh 10x0.1?");
+			System.out.println("1");
+			System.out.println("1.01");
+			if(r == 1) {
+				System.out.println("resposta certa");
+			}else {
+				System.out.println("resposta errada");
+			}
+			
+		}
+		public static void qt9() {
+			Scanner sc = new Scanner(System.in);
+			int r = sc.nextInt();
+			System.out.println("09- qual eh a raiz quadrada de 9?");
+			System.out.println("3");
+			System.out.println("3.3");
+			if(r == 3) {
+				System.out.println("resposta certa");
+			}else {
+				System.out.println("resposta errada");
+			}
+			
+		}
+		public static void qt10() {
+			Scanner sc = new Scanner(System.in);
+			int r = sc.nextInt();
+			System.out.println("10- quais sao os tres primeiros numeros de PI?");
+			System.out.println("3.14");
+			System.out.println("314");
+			if(r == 3.14) {
+				System.out.println("resposta certa");
+			}else {
+				System.out.println("resposta errada");
+			}
+			
+		}
+}
+		
